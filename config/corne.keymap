@@ -46,8 +46,8 @@
 //                    | ALT | ESC | base|   | ENT | symb| GUI |
                         bindings = <
    &kp TAB &soft_off &kp K_PREV &kp K_PP &kp K_NEXT &kp ASTRK &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT &kp BSPC
-   &kp LCTRL &kp BT_CLR &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP &kp PLUS &kp MINUS &kp N4 &kp N5 &kp N6 &trans &trans
-   &kp LSHFT &kp BT_SEL 0 &kp BT_SEL 1 &kp BT_SEL 2 &kp BT_SEL 3 &kp FSLH &kp EQUAL &kp N7 &kp N8 &kp N9 &to 3 &kp DEL
+   &kp LCTRL &bt BT_CLR &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP &kp PLUS &kp MINUS &kp N4 &kp N5 &kp N6 &trans &trans
+   &kp LSHFT &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp FSLH &kp EQUAL &kp N7 &kp N8 &kp N9 &to 3 &kp DEL
                   &kp LALT &kp ESC &to 0    &kp RET &to 1 &kp RGUI
                         >;
                 };
