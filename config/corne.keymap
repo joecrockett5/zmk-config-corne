@@ -40,14 +40,14 @@
                 };
                 number_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |     | PRV | PSE | NXT |  *  |   |  0  |  1  |  2  |  3  |  .  | BKSP |
-// | CTRL |     |  V- | MTE |  V+ |  +  |   |  -  |  4  |  5  |  6  |     |      |
-// | SHFT |     |     | OFF |     |  /  |   |  =  |  7  |  8  |  9  | nav |  DEL |
+// |  TAB | OFF | PRV | PSE | NXT |  *  |   |  0  |  1  |  2  |  3  |  .  | BKSP |
+// | CTRL |CLRBT|  V- | MTE |  V+ |  +  |   |  -  |  4  |  5  |  6  |     |      |
+// | SHFT | BT1 | BT2 | BT3 | BT4 |  /  |   |  =  |  7  |  8  |  9  | nav |  DEL |
 //                    | ALT | ESC | base|   | ENT | symb| GUI |
                         bindings = <
-   &kp TAB &trans &kp K_PREV &kp K_PP &kp K_NEXT &kp ASTRK &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT &kp BSPC
-   &kp LCTRL &trans &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP &kp PLUS &kp MINUS &kp N4 &kp N5 &kp N6 &trans &trans
-   &kp LSHFT &trans &trans &soft_off &trans &kp FSLH &kp EQUAL &kp N7 &kp N8 &kp N9 &to 3 &kp DEL
+   &kp TAB &soft_off &kp K_PREV &kp K_PP &kp K_NEXT &kp ASTRK &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT &kp BSPC
+   &kp LCTRL &kp BT_CLR &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP &kp PLUS &kp MINUS &kp N4 &kp N5 &kp N6 &trans &trans
+   &kp LSHFT &kp BT1 &kp BT2 &kp BT3 &kp BT4 &kp FSLH &kp EQUAL &kp N7 &kp N8 &kp N9 &to 3 &kp DEL
                   &kp LALT &kp ESC &to 0    &kp RET &to 1 &kp RGUI
                         >;
                 };
