@@ -42,12 +42,12 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |     | PRV | PSE | NXT |  *  |   |  0  |  1  |  2  |  3  |  .  | BKSP |
 // | CTRL |     |  V- | MTE |  V+ |  +  |   |  -  |  4  |  5  |  6  |     |      |
-// | SHFT |     |  B- |     |  B+ |  /  |   |  =  |  7  |  8  |  9  | nav |  DEL |
+// | SHFT |     |     |     |     |  /  |   |  =  |  7  |  8  |  9  | nav |  DEL |
 //                    | ALT | ESC | base|   | ENT | symb| GUI |
                         bindings = <
    &kp TAB &trans &kp K_PREV &kp K_PP &kp K_NEXT &kp ASTRK &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT &kp BSPC
    &kp LCTRL &trans &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP &kp PLUS &kp MINUS &kp N4 &kp N5 &kp N6 &trans &trans
-   &kp LSHFT &trans &kp C_BRI_DN &trans &kp C_BRI_UP &kp FSLH &kp EQUAL &kp N7 &kp N8 &kp N9 &to 3 &kp DEL
+   &kp LSHFT &trans &trans &trans &trans &kp FSLH &kp EQUAL &kp N7 &kp N8 &kp N9 &to 3 &kp DEL
    &kp ALT &kp ESC &to 0 &kp RET &to 1 &kp RGUI
                         >;
                 };
