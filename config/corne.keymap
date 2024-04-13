@@ -32,7 +32,7 @@
 // | SHFT |  *  |  /  |  =  |  '  |  ~  |   | "|" |  {  |  }  |  _  | nav | DEL  |
 //                    | ALT | ESC | base|   | ENT | num | GUI |
                         bindings = <
-   &kp TAB   &kp EXCL &kp AT &kp NUHS &kp DLLR &kp PRCNT   &kp CARET &kp LPAR  &kp RPAR     &kp AMPS   &kp ASTRK    &kp BSPC
+   &kp TAB   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp LPAR  &kp RPAR     &kp AMPS   &kp ASTRK    &kp BSPC
    &kp LCTRL &kp PLUS &kp MINUS &kp HASH &kp DQT &kp GRAVE   &kp BSLH &kp LBKT  &kp RBKT     &kp COLON   &kp SEMI &trans
    &kp LSHFT &kp ASTRK &kp FSLH &kp EQUAL &kp SQT &kp TILDE   &kp PIPE &kp LBRC  &kp RBRC &kp UNDER &to 3 &kp DEL
                   &kp LALT &kp ESC &to 0   &kp RET &to 2 &kp RGUI
